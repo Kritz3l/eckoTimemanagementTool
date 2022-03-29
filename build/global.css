@@ -17,4 +17,18 @@ textarea:focus, input:focus {
   outline: none;
 }
 
+.header {
+  width: 100%;
+  margin: 0;
+  background: #ECF0F3;
+  box-shadow: 0 4px 4px #D2D8E5;
+  height: 7rem;
+}
+
+.headerContainer {
+  width: 90%;
+  padding: 0 2rem;
+  margin: auto;
+}
+
 /*# sourceMappingURL=global.css.map */

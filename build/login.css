@@ -17,15 +17,38 @@ textarea:focus, input:focus {
   outline: none;
 }
 
+.header {
+  width: 100%;
+  margin: 0;
+  background: #ECF0F3;
+  box-shadow: 0 4px 4px #D2D8E5;
+  height: 7rem;
+}
+
+.headerContainer {
+  width: 90%;
+  padding: 0 2rem;
+  margin: auto;
+}
+
 .logoPlaceholder {
   height: 5rem;
 }
 
+/*.bodyLogin
+ * background-image: url("/img/uk_dorset.jpg")
+ * background-size: cover
+ * background-color: $bkg-base */
+/* opacity: 0.2 */
+/*.bodyBackgroundColor
+ *
+ * opacity: 0.5 */
 .loginMask {
+  opacity: unset;
   display: flex;
   flex-direction: column;
   width: 70%;
-  height: 20rem;
+  height: 100vh;
   margin: auto;
   justify-items: center;
 }

@@ -1,0 +1,83 @@
+/* colors */
+/* primary colors green */
+/* $primary-color-light: #11AA33 */
+/* $primary-color-base: #27C54D */
+/* $primary-color-dark: #4DEB49 */
+/* body */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+html, body {
+  background-color: #ECF0F3;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", Roboto, sans-serif;
+  color: #5E6981;
+}
+
+textarea:focus, input:focus {
+  outline: none;
+}
+
+.header {
+  width: 100%;
+  margin: 0;
+  background: #ECF0F3;
+  box-shadow: 0 4px 4px #D2D8E5;
+  height: 7rem;
+}
+
+.headerContainer {
+  width: 90%;
+  padding: 0 2rem;
+  margin: auto;
+}
+
+.logContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 3rem auto auto auto;
+}
+
+.log {
+  width: 80%;
+  margin: 1rem auto;
+  background-color: #ECF0F3;
+  box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px #D2D8E5;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+.logHeader {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logHorizontalLine {
+  margin: 0 2rem;
+  border-left: #27C5C5 solid 2px;
+  height: 35px;
+}
+
+.logTitle {
+  width: 100%;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: end;
+}
+
+.logExtendButton {
+  border: none;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 100%;
+  box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px #D2D8E6;
+}
+
+/*# sourceMappingURL=logs.css.map */
