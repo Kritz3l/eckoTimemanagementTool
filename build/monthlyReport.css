@@ -59,4 +59,30 @@ textarea:focus, input:focus {
   border: 1px solid #27C5C5;
 }
 
-/*# sourceMappingURL=global.css.map */
+.monthAndYear {
+  width: 80%;
+  margin: 3rem auto 0;
+  display: flex;
+}
+
+.yearContainer, .monthContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 3rem 0 0;
+}
+
+.yearTitle, .monthTitle {
+  font-weight: 500;
+  color: #9FA8BC;
+  font-size: 15px;
+  margin: 0;
+}
+
+.actualYear, .actualMonth {
+  font-weight: 500;
+  color: #5E6981;
+  font-size: 25px;
+  margin: 0;
+}
+
+/*# sourceMappingURL=monthlyReport.css.map */

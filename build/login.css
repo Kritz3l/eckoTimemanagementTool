@@ -37,7 +37,7 @@ textarea:focus, input:focus {
   padding: 2rem 0 0;
   bottom: 0;
   height: 6rem;
-  border-top: #27C5C5 solid 2px;
+  border-top: #27C5C5 solid 1px;
 }
 
 .navigation {

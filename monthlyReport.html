@@ -2,11 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet"  type="text/css" href="global.sass">
+    <title>Monatsübersicht</title>
     <link rel="stylesheet" href="build/global.css">
+    <link rel="stylesheet" href="build/monthlyReport.css">
 </head>
-<body>
-
+<body class="bodyBackgroundColor">
+<header class="header">
+    <div class="headerContainer">
+        <h2>TitleOfApp</h2>
+        <div class="subTitle"><p>Monatsübersicht</p></div>
+    </div>
+</header>
+<div class="monthAndYear">
+    <div class="yearContainer">
+        <p class="yearTitle">Jahr</p>
+        <p class="actualYear">2022</p>
+    </div>
+    <div class="monthContainer">
+        <p class="monthTitle">Monat</p>
+        <p class="actualMonth">Oktober</p>
+    </div>
+</div>
+<footer class="footer">
+    <div class="navigation">
+        <button class="navigationButtons">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 30C23.732 30 30 23.732 30 16C30 8.26801 23.732 2 16 2C8.26801 2 2 8.26801 2 16C2 23.732 8.26801 30 16 30Z" stroke="#5E6981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16 7.60001V16L21.6 18.8" stroke="#5E6981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        <button class="navigationButtons">
+            <svg width="32" height="26" viewBox="0 0 32 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.8 2H27.2C28.74 2 30 3.26 30 4.8V21.6C30 23.14 28.74 24.4 27.2 24.4H4.8C3.26 24.4 2 23.14 2 21.6V4.8C2 3.26 3.26 2 4.8 2Z" stroke="#5E6981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M30 4.79996L16 14.6L2 4.79996" stroke="#5E6981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        <button class="navigationButtons activated">
+            <svg width="26" height="28" viewBox="0 0 26 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.5556 4.22223H4.44444C3.09441 4.22223 2 5.31664 2 6.66667V23.7778C2 25.1278 3.09441 26.2222 4.44444 26.2222H21.5556C22.9056 26.2222 24 25.1278 24 23.7778V6.66667C24 5.31664 22.9056 4.22223 21.5556 4.22223Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M17.8889 1.77777V6.66666" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M8.11108 1.77777V6.66666" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M2 11.5555H24" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+    </div>
+</footer>
 </body>
 </html>
