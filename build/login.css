@@ -31,6 +31,34 @@ textarea:focus, input:focus {
   margin: auto;
 }
 
+.footer {
+  width: 100%;
+  position: fixed;
+  padding: 2rem 0 0;
+  bottom: 0;
+  height: 6rem;
+  border-top: #27C5C5 solid 2px;
+}
+
+.navigation {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigationButtons {
+  height: 4rem;
+  width: 4rem;
+  border: none;
+  border-radius: 100px;
+}
+
+.activated {
+  background: linear-gradient(135.48deg, #11A1AA 11.87%, #49EBE1 86.25%);
+  border: 1px solid #27C5C5;
+}
+
 .logoPlaceholder {
   height: 5rem;
 }
