@@ -36,7 +36,7 @@ textarea:focus, input:focus
   box-shadow: 0 4px 4px $bkg-dark
   height: 7rem
 
-.headerContainer
+.headerContainer, .subNavigation
   width: 90%
   padding: 0 2rem
   margin: auto
@@ -48,12 +48,23 @@ textarea:focus, input:focus
   bottom: 0
   height: 6rem
   border-top: $primary-color-base solid 1px
+  background-color: $bkg-base
 
 .navigation
   width: 50%
   margin: 0 auto
   display: flex
   justify-content: space-between
+
+.subNavigation
+  display: flex
+  justify-content: space-around
+  p
+    font-weight: 500
+    color: $font-light
+
+.active
+  color: $font-dark !important
 
 .navigationButtons
   height: 4rem

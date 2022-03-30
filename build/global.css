@@ -25,7 +25,7 @@ textarea:focus, input:focus {
   height: 7rem;
 }
 
-.headerContainer {
+.headerContainer, .subNavigation {
   width: 90%;
   padding: 0 2rem;
   margin: auto;
@@ -38,6 +38,7 @@ textarea:focus, input:focus {
   bottom: 0;
   height: 6rem;
   border-top: #27C5C5 solid 1px;
+  background-color: #ECF0F3;
 }
 
 .navigation {
@@ -45,6 +46,19 @@ textarea:focus, input:focus {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+}
+
+.subNavigation {
+  display: flex;
+  justify-content: space-around;
+}
+.subNavigation p {
+  font-weight: 500;
+  color: #9FA8BC;
+}
+
+.active {
+  color: #5E6981 !important;
 }
 
 .navigationButtons {
