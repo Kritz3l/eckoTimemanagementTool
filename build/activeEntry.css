@@ -91,43 +91,73 @@ textarea:focus, input:focus {
   border-radius: 100px;
 }
 
-.logoPlaceholder {
-  height: 5rem;
-}
-
-/*.bodyLogin
- * background-image: url("/img/uk_dorset.jpg")
- * background-size: cover
- * background-color: $bkg-base */
-/* opacity: 0.2 */
-/*.bodyBackgroundColor
- *
- * opacity: 0.5 */
-.loginMask {
-  opacity: unset;
+.activeEntryBody {
+  width: 80%;
+  margin: auto;
   display: flex;
   flex-direction: column;
-  width: 70%;
-  height: 100vh;
-  margin: auto;
-  justify-items: center;
+  justify-content: center;
+  align-items: center;
 }
-.loginMask p {
-  /*font-family: Segoe UI, sans-serif */
+
+.clock {
+  font-size: 55px;
+}
+
+.buttonClockIn, .buttonClockOut {
+  font-family: "Poppins", Roboto, sans-serif;
+  font-weight: 500;
+  width: 80%;
+  margin: 0.5rem auto;
+  background-color: #ECF0F3;
+  box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px #D2D8E5;
+  border-radius: 4px;
+  height: 3rem;
+  border: none;
+  font-size: 15px;
   color: #5E6981;
+}
+
+.clickedNavButton {
+  background: #ECF0F3;
+  box-shadow: 4px 4px 8px #FFFFFF, -4px -4px 8px #D2D8E6;
+  border-radius: 4px;
+  color: #9FA8BC !important;
+}
+
+.timeEntriesContainer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem auto;
+}
+
+.clockInTitle, .clockOutTitle, .clockInTime, .clockOutTime {
+  margin: 0;
   font-weight: 500;
 }
 
-.loginInputs {
-  height: 4rem;
-  padding: 0 20px;
-  background: #ECF0F3;
-  box-shadow: inset -4px -4px 8px #FFFFFF, inset 4px 4px 8px #D2D8E5;
-  border-radius: 4px;
-  border: none;
-  color: #5E6981;
-  font-family: "Poppins", Roboto, sans-serif;
-  font-size: 22px;
+.clockInTitle, .clockOutTitle {
+  color: #9FA8BC;
 }
 
-/*# sourceMappingURL=login.css.map */
+.clockInTime, .clockOutTime {
+  color: #5E6981;
+  font-size: 35px;
+}
+
+/*.confirmTimeContainer
+ * display: flex
+ * flex-direction: column
+ * align-items: center
+ * p
+ *  font-weight: 500 */
+/*.confirmTimeButton
+ * height: 3rem
+ * width: 3rem
+ * background: #ECF0F3
+ * box-shadow: -4.6696px -4.6696px 9.33921px #FFFFFF, 4.6696px 4.6696px 9.33921px #D2D8E6
+ * border: none
+ * border-radius: 100px */
+
+/*# sourceMappingURL=activeEntry.css.map */

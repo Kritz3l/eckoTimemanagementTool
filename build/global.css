@@ -73,4 +73,22 @@ textarea:focus, input:focus {
   border: 1px solid #27C5C5;
 }
 
+.confirmTimeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.confirmTimeContainer p {
+  font-weight: 500;
+}
+
+.confirmTimeButton {
+  height: 3rem;
+  width: 3rem;
+  background: #ECF0F3;
+  box-shadow: -4.6696px -4.6696px 9.33921px #FFFFFF, 4.6696px 4.6696px 9.33921px #D2D8E6;
+  border: none;
+  border-radius: 100px;
+}
+
 /*# sourceMappingURL=global.css.map */

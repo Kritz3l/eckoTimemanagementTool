@@ -1,0 +1,24 @@
+@import "global"
+
+.detailedEntryContainer
+  display: flex
+  flex-direction: column
+  width: 80%
+  margin: 2rem auto
+
+.clockInDetailedEntry, .clockOutDetailedEntry
+  display: flex
+  flex-direction: column
+  margin: 2rem auto
+  width: 50%
+
+.clockInDetailedEntryTitle, .clockOutDetailedEntryTitle, .clockInDetailedEntryTime, .clockOutDetailedEntryTime
+  font-weight: 500
+  color: $font-light
+  margin: 0
+
+.clockInDetailedEntryTime, .clockOutDetailedEntryTime
+  color: $font-dark !important
+  align-self: center
+  font-size: 35px
+

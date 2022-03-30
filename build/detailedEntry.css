@@ -91,43 +91,30 @@ textarea:focus, input:focus {
   border-radius: 100px;
 }
 
-.logoPlaceholder {
-  height: 5rem;
-}
-
-/*.bodyLogin
- * background-image: url("/img/uk_dorset.jpg")
- * background-size: cover
- * background-color: $bkg-base */
-/* opacity: 0.2 */
-/*.bodyBackgroundColor
- *
- * opacity: 0.5 */
-.loginMask {
-  opacity: unset;
+.detailedEntryContainer {
   display: flex;
   flex-direction: column;
-  width: 70%;
-  height: 100vh;
-  margin: auto;
-  justify-items: center;
+  width: 80%;
+  margin: 2rem auto;
 }
-.loginMask p {
-  /*font-family: Segoe UI, sans-serif */
-  color: #5E6981;
+
+.clockInDetailedEntry, .clockOutDetailedEntry {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  width: 50%;
+}
+
+.clockInDetailedEntryTitle, .clockOutDetailedEntryTitle, .clockInDetailedEntryTime, .clockOutDetailedEntryTime {
   font-weight: 500;
+  color: #9FA8BC;
+  margin: 0;
 }
 
-.loginInputs {
-  height: 4rem;
-  padding: 0 20px;
-  background: #ECF0F3;
-  box-shadow: inset -4px -4px 8px #FFFFFF, inset 4px 4px 8px #D2D8E5;
-  border-radius: 4px;
-  border: none;
-  color: #5E6981;
-  font-family: "Poppins", Roboto, sans-serif;
-  font-size: 22px;
+.clockInDetailedEntryTime, .clockOutDetailedEntryTime {
+  color: #5E6981 !important;
+  align-self: center;
+  font-size: 35px;
 }
 
-/*# sourceMappingURL=login.css.map */
+/*# sourceMappingURL=detailedEntry.css.map */
